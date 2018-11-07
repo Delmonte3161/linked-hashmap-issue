@@ -76,7 +76,7 @@ public class IngestionController {
         // Add metric values list
         List<Map<String, Object>> metricValuesList = new ArrayList<>();
 
-        Map<String, Object> metricValueMap = new LinkedHashMap<>();
+        Map<String, Object> metricValueMap = new HashMap<>();
         metricValueMap.put("metric", "DNS");
         metricValueMap.put("description", "Device is in DNS");
         metricValueMap.put("weight", 1.0);
